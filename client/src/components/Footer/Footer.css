@@ -1,0 +1,86 @@
+.footer-container {
+  background-color: #3b3734;
+  color: #dcdcdc;
+  display: flex;
+  justify-content: center;
+  padding: 40px 10%;
+  font-family: 'Arial', sans-serif;
+  margin-top: 10%;
+}
+
+.footer-section {
+  flex: 1; /* This will ensure that each section takes up equal space */
+  padding: 0 20px; /* Adjust the spacing as needed */
+}
+
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase; /* Adding some style to the titles */
+  font-weight: 600; /* Slightly bolder font for titles */
+}
+
+.footer-detail, .footer-social-icons, .footer-contact {
+  font-size: 14px;
+  line-height: 2; /* Increased line height for better readability */
+  list-style-type: none; /* Remove list bullets */
+  padding: 0;
+}
+
+.footer-link-list, .footer-social-icons {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.footer-social-icons {
+  flex-direction: row; /* Keep social icons horizontal */
+  justify-content: start; /* Align social icons to the left */
+}
+
+.footer-social-icon {
+  margin-right: 10px; /* Space out the social icons */
+}
+
+.footer-contact {
+  text-align: right; /* Align contact details to the right */
+}
+
+.footer-link {
+  color: #bbbbbb; /* Softer color for links */
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-link:hover {
+  color: #ffffff; /* Bright color on hover for better interaction */
+  transform: translateY(-2px); /* Slight move up for a dynamic effect */
+}
+
+.footer-social-icon {
+  border: 2px solid white; /* White border around the icons */
+  border-radius: 50%; /* Make it round */
+  background-color: #ffffff;
+  display: inline-flex; /* Aligns the icon nicely in the center */
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px; /* Space out the social icons */
+  transition: background-color 0.3s, transform 0.3s;
+  padding: 8px; /* Space around the icon */
+}
+
+.footer-social-icon:hover {
+  background-color: #555; /* Slight background color on hover */
+  transform: scale(1.1); /* Enlarge icons on hover */
+  border-color: #ffcc00; /* Change border color on hover if desired */
+}
+
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+  font-size: 0.85em;
+  color: #aaa;
+  margin-top: 30px; /* Added margin top for spacing from the columns */
+}

@@ -1,0 +1,94 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbf8f0;
+  position: fixed; /* Or 'fixed' if you want a sticky navbar */
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Higher than the z-index of the hero image or its container */
+  top: 0;
+  color: #3b3734;
+  padding: 1rem;
+  box-shadow: 0 2px 4px -1px rgba(59, 55, 52, 0.131); /* Horizontal shadow */
+  border-bottom: 2px solid #3b3734; /* 2px solid border with the specified color */
+
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #3b3734;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #d3c2ad;
+  margin: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    /* Your existing styles */
+    box-shadow: none;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    height: 10em;
+    position: absolute; /* Position the dropdown absolutely to the navbar */
+    top: 100%; /* Start the dropdown right below the navbar */
+    left: 0;
+    background-color: #d3c2ad;
+    z-index: 1000;
+    overflow: hidden;
+    max-height: 0; /* Collapse the dropdown */
+    transition: max-height 0.5s ease-in-out; /* Animate the transition */
+    border-bottom: 2px solid #3b3734; /* 2px solid border with the specified color */
+
+  }
+
+  .nav-links.open {
+    display: flex; /* This will now display the links as a column stack */
+    max-height: 10em; /* Set a max-height for the transition */
+  }
+
+  .hamburger {
+    display: block;
+  }
+  
+  /* Style the links with padding for a touch-friendly interface */
+  .nav-links a {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoContainer {
+    padding-left: 2em;
+  }
+  .logo {
+    margin-right: 1rem;
+    font-size: 30px;
+  }
+  .nav-links a {
+    font-size: 20px;
+  }
+  .linkContainer {
+    padding-right: 2em;
+  }
+
+}

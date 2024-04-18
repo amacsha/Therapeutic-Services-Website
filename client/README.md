@@ -1,8 +1,24 @@
-# React + Vite
+# Sharon White | Therapeutic Services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the code repository for a Therapeutic Services website. This React-based website provides information about the therapeutic services offered by Sharon White, a certified therapist dedicated to promoting mental health and well-being.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: The website is fully responsive, ensuring a seamless experience across various devices and screen sizes.
+- **Interactive UI**: Utilizes React's component-based architecture for interactive user interfaces.
+- **Accessibility**: Implements best practices for web accessibility, allowing users of all abilities to navigate and interact with the website.
+- **Modern Aesthetics**: Features a clean and modern design aesthetic that reflects the calming nature of the therapeutic services offered.
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)

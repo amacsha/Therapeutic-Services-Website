@@ -9,16 +9,23 @@ Welcome to the code repository for a Therapeutic Services website. This React-ba
 - **Accessibility**: Implements best practices for web accessibility, allowing users of all abilities to navigate and interact with the website.
 - **Modern Aesthetics**: Features a clean and modern design aesthetic that reflects the calming nature of the therapeutic services offered.
 
-![alt text](image.png)
 
-![alt text](image-1.png)
+#large
 
-![alt text](image-2.png)
+![large screen with hero](image.png)
 
-![alt text](image-5.png)
+![large screen testimonial](image-1.png)
 
-![alt text](image-6.png)
+![large screen about](image-2.png)
 
-![alt text](image-3.png)
+#medium
 
-![alt text](image-4.png)
+![medium top half](image-5.png)
+
+![medium bottom half](image-6.png)
+
+#mobile
+
+![mobile device hamburger menu open top half](image-3.png)
+
+![mobile device hamburger menu closed lower half](image-4.png)

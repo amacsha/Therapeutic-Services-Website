@@ -10,7 +10,7 @@ Welcome to the code repository for a Therapeutic Services website. This React-ba
 - **Modern Aesthetics**: Features a clean and modern design aesthetic that reflects the calming nature of the therapeutic services offered.
 
 
-##large
+## Large Screen
 
 ![large screen with hero](image.png)
 
@@ -18,13 +18,13 @@ Welcome to the code repository for a Therapeutic Services website. This React-ba
 
 ![large screen about](image-2.png)
 
-##medium
+## Medium Screen
 
 ![medium top half](image-5.png)
 
 ![medium bottom half](image-6.png)
 
-##mobile
+## Mobile Screen
 
 ![mobile device hamburger menu open top half](image-3.png)
 
